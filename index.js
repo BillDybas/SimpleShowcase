@@ -1,29 +1,29 @@
 // FILL THESE IN
-var USERNAME = 'BillDybas';
-var PROJECTNAME = 'SimpleShowcase';
-var PROJECTIMAGE = 'example.png';
-var PROJECTDESCRIPTION = 'A simple static site generator centered around a GitHub project.';
+var username = 'BillDybas';
+var projectName = 'SimpleShowcase';
+var projectImage = 'example.png';
+var projectDescription = 'A simple static site generator centered around a GitHub project.';
 
-var PROJECTURL = 'https://github.com/' + USERNAME + '/' + PROJECTNAME;
+var projectUrl = 'https://github.com/' + username + '/' + projectName;
 
 // Set the Project Name
-var projectNames = document.getElementByClassName('project-name');
+var projectNames = document.getElementsByClassName('project-name');
 var p;
 for(p = 0; p < projectNames.length; p++){
-    projectNames[p].innerHTML = PROJECTNAME;
+    projectNames[p].innerHTML = projectName;
 }
 
 // Set the Project Description
 var projectDes = document.getElementById('project-description');
-projectDes.innerHTML = PROJECTDESCRIPTION;
+projectDes.innerHTML = projectDescription;
 
 // Set the Project URL
-var projectUrls = document.getElementByClassname('project-url');
+var projectUrls = document.getElementsByClassName('project-url');
 var u;
 for(u = 0; u < projectUrls.length; u++){
-    projectUrls[u].href = PROJECTURL;
+    projectUrls[u].href = projectUrl;
 }
 
 // Set the Project Image
 var projectImg = document.getElementById('project-image');
-projectImg.src = PROJECTURL + '/blob/master/' + PROJECTIMAGE;
+projectImg.src = 'https://raw.githubusercontent.com/' + username + '/' + projectName + '/master/' + projectImage;
