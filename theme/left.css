@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+}
+
+.heading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 0.25em;
+    text-align: left;
+}
+
+#project-description {
+    margin-left: 0.5em;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container {
+    position: absolute;
+    bottom: 4em;
+    left: 0;
+    width: 75%;
+}
+
+.project-url {
+    text-decoration: none;
+    color: #000000;
+}
+
+.project-url:hover {
+    text-decoration: underline;
+}
+
+.project-url:visited {
+    color: #696969;
+}
+
+#project-image {
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-left: 0.25em;
+}
