@@ -27,3 +27,5 @@ for(u = 0; u < projectUrls.length; u++){
 // Set the Project Image
 var projectImg = document.getElementById('project-image');
 projectImg.src = 'https://raw.githubusercontent.com/' + username + '/' + projectName + '/master/' + projectImage;
+projectImg.alt = projectName;
+projectImg.title = projectName;
