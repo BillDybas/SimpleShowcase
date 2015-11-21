@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400);
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #f6f1ed;
+}
+
+body {
+    background-color: rgba(207, 162, 98, 0.5);
+}
+
+.heading,
+#project-description {
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 1em 1em 1em;
+    background-color: #6a5750;
+    border-radius: 1.5em;
+}
+
+.project-url {
+    text-decoration: none;
+    color: #30231d;
+}
+
+.project-url:hover {
+    text-decoration: underline;
+}
+
+.project-url:visited {
+    color: #6a5750;
+}
+
+#project-image {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
